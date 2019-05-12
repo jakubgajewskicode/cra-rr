@@ -16,8 +16,8 @@ const Footer = () => {
                     <>
                     <p>you are on  <span>
                         {props.match.params.page}</span></p>
-                        <p>Jesteś na <span>{props.match.url}</span></p>
-                        <p>Jesteś na <span>{props.match.path}</span></p>
+                        <p>You are on<span>{props.match.url}</span></p>
+                        <p>You are on<span>{props.match.path}</span></p>
                         </>
                 )
             }}/>
