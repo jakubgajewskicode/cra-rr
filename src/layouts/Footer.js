@@ -13,10 +13,26 @@ const Footer = () => {
     )}/>
                   <Route path="/:page" exact render={(props) => {
                 return (
+                    <>
                     <p>you are on  <span>
                         {props.match.params.page}</span></p>
+                        <p>Jesteś na <span>{props.match.url}</span></p>
+                        <p>Jesteś na <span>{props.match.path}</span></p>
+                        </>
                 )
             }}/>
+
+                <Route path="/:page/:idProduct" exact render={(props) => {
+        console.log(props);
+        return (
+          <>
+            <p>You are on <span>{props.match.params.idProduct}</span></p>
+            <p>You are on<span>{props.match.url}</span></p>
+            <p>You are on <span>{props.match.path}</span></p>
+          </>
+        )
+      }} />
+
         </div>
      );
 }

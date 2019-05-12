@@ -6,7 +6,7 @@ const permission = false;
 const  AdminPage= () => {
     return ( 
        <Route render = {() => (
-        permission ? <h3> Welcome </h3> : (
+        permission ? ( <h3> Welcome </h3> ) : (
         <Redirect to ="/login"/>
            )
        )} />
