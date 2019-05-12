@@ -1,3 +1,32 @@
+# Create React APP - Single Page Application with React Router - Case Study 
+
+In that project I focused on simple web structure in JSX. 
+
+# React Router: 
+
+- Browser Router 
+- NavLinks
+- Link
+- Route (with getting params for a link)
+- Switch
+- Prompt
+- Redirect
+
+# CSS 
+- 7 different files for each section of the page
+
+
+
+
+
+
+
+<br>
+<br>
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
