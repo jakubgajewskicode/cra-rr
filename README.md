@@ -17,14 +17,14 @@ In that project I focused on simple web structure in JSX.
 
 
 
-
-
-
-
-<br>
 <br>
 
 App is already deployd.. link on top
+
+<br>
+<br>
+
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
